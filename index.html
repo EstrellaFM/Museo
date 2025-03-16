@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Ontario Museum</title>
+    <link rel="stylesheet" href="src/scss/style.css">
+
+    <link rel="shortcut icon" href="src/img/logo.png">
+</head>
+
+<body>
+
+    <script>  alert("Bienvenido al Royal Ontario Museum"); </script>
+
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>ROM</h1>
+            <nav class="navegacion-principal">
+
+                <a href="#museo">Sobre el museo</a>
+
+                <a href="#lineup">Eventos proximos</a>
+                <a href="#galeria">Galeria </a>
+            </nav>
+        </div>
+    </header>
+   
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Nueva exhibición: Tipos de gobierno
+                    <span>Ven y conocela</span>
+                </h2>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/museo.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+<section id="museo">
+    <div class="sobre-festival contenedor">
+        <div class="imagen">
+            <img src="src/img/2020-Toronto-ROM-03-web.jpg" alt="imagen museo">
+        </div>
+        <div class="contenido-festival">
+            <h2>Royal Ontario Museum</h2>
+            <p class="fecha">Toronto, Canada</p>
+            <p class="texto">El Museo Real de Ontario (ROM), abierto desde 1914, se dedica a actividades de conservación e investigación en todo el mundo. Es el museo más grande de su tipo en Canadá y atrae a más de un millón de visitantes cada año, además de exhibir arte, cultura y naturaleza de todas las épocas.</p>          
+    </div>
+</section>   
+
+<div class="sobre-festival contenedor">     
+    <div class="contenido-ubi">
+        <h3>Ubicación:</h3>
+        <p class="texto">100 Queens Park, Toronto, ON M5S 2C6, Canadá</p>
+    </div>
+    <div>
+        <img src="src/img/map.png" alt="Mapa">
+    </div>
+</div>
+
+    <section id="lineup" class="lineup">
+        <h3>Eventos proximos</h3>
+
+        <p class="dia">Abril 2025</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Exhibicion: Formas de gobierno</p>
+
+                <ul class="calendario">
+                    <li>11:00 am | <span>Presentacion</span> </li>
+                    <li>11:10 am | <span>Discurso de Apertura</span> </li>
+                    <li>11:20 am | <span>Explicación</span> </li>
+                    <li>01:00 pm | <span>Clausura del evento</span> </li>
+                    </li><a class="enlaces" href=https://docs.google.com/forms/d/1pCY6JhQjlsB_n8yWNgJokwcZJLbz1JNJ7RFkjwjSrcE/edit class="registro"> Registrar asistencia</a></li>
+                </ul>
+
+            </div>
+
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Paises a cargo de la exhibicion:</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Canadá</p>
+
+                <p>Paraguay</p>
+
+                <p>Honduras</p>
+
+                <p>Bolivia</p>
+
+                <p>China</p>
+
+                <p>Cuba</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="galeria" class="galeria">
+        <h3>Galería</h3>
+
+        <div class="galeria-imagenes"></div>
+    </section>
+
+
+
+    
+    <footer class="footer">
+
+        <a class="enlace" href="https://www.rom.on.ca/whats-on/exhibitions">Otras exposiciones:</a>
+
+        <p align="center">Royal Ontario Museum.</p>
+        <p align="center">Todos los derechos reservados.</p>
+        <p align="center">2025.</p>
+
+        <img height="350px" width="350px" src="src/img/logo.png" alt="Logo">
+    </footer>
+
+    <script src="src/js/scrpit.js"></script>
+</body>
+
+</html>
